@@ -5,7 +5,7 @@ echo "开始sed工作"
 sed -i 's/0x20202020324B4445/0x20202020204c5450/g' MdeModulePkg/MdeModulePkg.dec
 sed -i 's/QemuFwCfgAcpiPlatform/QemuFwCfgAcpiPlatform/g' OvmfPkg/AcpiPlatformDxe/AcpiPlatformDxe.inf
 sed -i 's/= VirtioFdtDxe/= AsusioFdtDxe/g' OvmfPkg/Fdt/VirtioFdtDxe/VirtioFdtDxe.inf
-sed -i 's/= QemuKernelLoaderFsDxe/= AsusKernelLoaderFsDxe/g' OvmfPkg/QemuKernelLoaderFsDxe/QemuKernelLoaderFsDxe.inf
+#sed -i 's/= QemuKernelLoaderFsDxe/= AsusKernelLoaderFsDxe/g' OvmfPkg/QemuKernelLoaderFsDxe/QemuKernelLoaderFsDxe.inf
 sed -i 's/= QemuRamfbDxe/= AsusRamfbDxe/g' OvmfPkg/QemuRamfbDxe/QemuRamfbDxe.inf
 sed -i 's/= QemuVideoDxe/= AsusVideoDxe/g' OvmfPkg/QemuVideoDxe/QemuVideoDxe.inf
 sed -i 's/= VirtHstiDxe/= AsusHstiDxe/g' OvmfPkg/VirtHstiDxe/VirtHstiDxe.inf
