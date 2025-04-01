@@ -8,7 +8,8 @@ cd pve-edk2-firmware
 #git reset --hard 17443032f78eaf9ae276f8df9d10c64beec2e048
 apt install devscripts -y
 mk-build-deps --install
-git submodule update --init --recursive
+make
+make clean
 cp ../Logo.bmp debian/
 cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
