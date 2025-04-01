@@ -57,6 +57,7 @@ jobs:
           rm *riscv*
           rm *legacy*
           rm *aarch64*
+          rm *deps*
 
       # Step 7: 创建 GitHub Release
       - name: Create GitHub Releases
