@@ -15,6 +15,8 @@ cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
 chmod +x sedPatch-pve-edk2-firmware-anti-dection.sh
 bash sedPatch-pve-edk2-firmware-anti-dection.sh
+git diff > patch.deb
+cp patch.deb ../
 cd ..
 apt install devscripts -y
 mk-build-deps --install
