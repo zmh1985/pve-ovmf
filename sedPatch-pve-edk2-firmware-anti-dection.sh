@@ -8,7 +8,7 @@ sed -i 's/= VirtioFdtDxe/= AsusioFdtDxe/g' OvmfPkg/Fdt/VirtioFdtDxe/VirtioFdtDxe
 sed -i 's/BASE_NAME                      = QemuKernelLoaderFsDxe/BASE_NAME                      = AsusKernelLoaderFsDxe/g' OvmfPkg/QemuKernelLoaderFsDxe/QemuKernelLoaderFsDxe.inf
 sed -i 's/= QemuRamfbDxe/= AsusRamfbDxe/g' OvmfPkg/QemuRamfbDxe/QemuRamfbDxe.inf
 sed -i 's/= QemuVideoDxe/= AsusVideoDxe/g' OvmfPkg/QemuVideoDxe/QemuVideoDxe.inf
-sed -i 's/BASE_NAME                 = VirtHstiDxe/BASE_NAME                 = AsusHstiDxe/g' OvmfPkg/VirtHstiDxe/VirtHstiDxe.inf
+sed -i 's/BASE_NAME                      = VirtHstiDxe/BASE_NAME                      = AsusHstiDxe/g' OvmfPkg/VirtHstiDxe/VirtHstiDxe.inf
 sed -i 's/BASE_NAME                      = Virtio10/BASE_NAME                      = Asusio10/g' OvmfPkg/Virtio10Dxe/Virtio10.inf
 sed -i 's/= VirtioBlkDxe/= AsusioBlkDxe/g' OvmfPkg/VirtioBlkDxe/VirtioBlk.inf
 sed -i 's/= VirtioFsDxe/= AsusioFsDxe/g' OvmfPkg/VirtioFsDxe/VirtioFsDxe.inf
