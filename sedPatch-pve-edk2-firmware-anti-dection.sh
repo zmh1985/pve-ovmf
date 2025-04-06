@@ -44,8 +44,8 @@ sed -i 's/BASE_NAME                      = X86QemuLoadImageLib/BASE_NAME        
 sed -i 's/BASE_NAME                      = XenRealTimeClockLib/BASE_NAME                      = '${brand}'RealTimeClockLib/g' OvmfPkg/Library/XenRealTimeClockLib/XenRealTimeClockLib.inf
 sed -i 's/BASE_NAME                      = XenConsoleSerialPortLib/BASE_NAME                      = '${brand}'ConsoleSerialPortLib/g' OvmfPkg/Library/XenConsoleSerialPortLib/XenConsoleSerialPortLib.inf
 sed -i 's/BASE_NAME                      = QemuFwCfgSimpleParserLib/BASE_NAME                      = '${brand}'FwCfgSimpleParserLib/g' OvmfPkg/Library/QemuFwCfgSimpleParserLib/QemuFwCfgSimpleParserLib.inf
-sed -i 's/BASE_NAME                      = VirtNorFlashStaticLib/BASE_NAME                      = '${brand}'NorFlashStaticLib/g' OvmfPkg/Library/VirtNorFlashPlatformLib/VirtNorFlashStaticLib.inf
-sed -i 's/BASE_NAME                      = VirtNorFlashDeviceTreeLib/BASE_NAME                      = '${brand}'NorFlashDeviceTreeLib/g' OvmfPkg/Library/VirtNorFlashPlatformLib/VirtNorFlashDeviceTreeLib.inf
+sed -i 's/BASE_NAME                      = VirtNorFlashStaticLib/BASE_NAME                      = '${brand}'NorFlashStaticLib/g' OvmfPkg/RiscVVirt/Library/VirtNorFlashPlatformLib/VirtNorFlashStaticLib.inf
+sed -i 's/BASE_NAME                      = VirtNorFlashDeviceTreeLib/BASE_NAME                      = '${brand}'NorFlashDeviceTreeLib/g' OvmfPkg/RiscVVirt/Library/VirtNorFlashPlatformLib/VirtNorFlashDeviceTreeLib.inf
 sed -i 's/BASE_NAME                      = BaseQemuFwCfgS3LibNull/BASE_NAME                      = Base'${brand}'FwCfgS3LibNull/g' OvmfPkg/Library/QemuFwCfgS3Lib/BaseQemuFwCfgS3LibNull.inf
 sed -i 's/BASE_NAME                      = DxeQemuFwCfgS3LibFwCfg/BASE_NAME                      = Dxe'${brand}'FwCfgS3LibFwCfg/g' OvmfPkg/Library/QemuFwCfgS3Lib/DxeQemuFwCfgS3LibFwCfg.inf
 sed -i 's/BASE_NAME                      = PeiQemuFwCfgS3LibFwCfg/BASE_NAME                      = Pei'${brand}'FwCfgS3LibFwCfg/g' OvmfPkg/Library/QemuFwCfgS3Lib/PeiQemuFwCfgS3LibFwCfg.inf
